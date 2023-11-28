@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-params.greeting = 'Hello world!'
+params.greeting = 'Hello Ismail!'
 greeting_ch = Channel.of(params.greeting)
 
 process SPLITLETTERS {
